@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Montserrat:ital@1&family=Mukta:wght@300&family=Nunito:wght@200&family=Poppins:wght@300;400;500;600;700&family=Rajdhani&family=Roboto&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;700&family=Ysabeau+SC:wght@300&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        .heading {
+            text-align: center;
+            margin-top: 5%;
+            font-weight: 600;
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+
+        .heading span{
+            margin-right:2%;
+        }
+
+        .heading button{
+            padding:10px 5px;
+            border-radius: 30px;
+            border:0;
+            outline:0;
+            color:white;
+            cursor: pointer;
+            background:linear-gradient(to right,green,red);
+        }
+
+        .todoadd {
+            width:300px;
+            margin: 2% auto 5% auto;
+        }
+
+        #writetodo {
+            padding: 5px 10px;
+            font-size: 1.1rem;
+            border-radius: 10px;
+            border: 0;
+            outline: 0;
+        }
+
+        .addbtn {
+            background-color: rgb(44, 151, 44);
+            border: 0;
+            padding: 3px 5px;
+            font-size: 1.1rem;
+            border-radius: 10px;
+            margin-left: 2%;
+            cursor: pointer;
+        }
+
+        .addbtn:hover {
+            background-color: rgb(93, 244, 93);
+        }
+
+        .work {
+            width:60%;
+            background-color: rgb(238, 233, 233);
+            position: relative;
+            font-size: 1.2rem;
+            margin: 5% auto;
+            border-radius: 10px;
+            padding: 6px 10px;
+            border: 1px solid black;
+        }
+
+        .work .btn {
+            margin: 2% 0;
+        }
+
+        .work .btn button {
+            padding: 4px 5px;
+            border-radius: 10px;
+            border: 0;
+            outline: 0;
+            font-size: 0.7em;
+        }
+        .work .btn .editbtn {
+            background-color: rgb(44, 151, 44);
+        }
+
+        .work .btn .editbtn:hover {
+            background-color: rgb(93, 244, 93);
+            cursor: pointer;
+        }
+
+        .work .btn .deletebtn {
+            background-color: rgb(204, 47, 60);
+        }
+
+        .work .btn .deletebtn:hover {
+            background-color: rgb(233, 82, 95);
+            cursor: pointer;
+        }
+
+        #box{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .bodydark{
+            background-color: black;
+        }
+        .spancolor{
+            color:transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            background-image: linear-gradient(to left,red,green);
+        }
+        .addbtncolor{
+            color:white;
+        }
+
+        .btntime {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .time{
+            font-size: 0.8rem;
+        }
+
+        .taskdone{
+            text-decoration:line-through
+        }
